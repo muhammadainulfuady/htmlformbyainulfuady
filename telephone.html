@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Telephone</title>
+    <style>
+      * body {
+        background-color: rgb(173, 217, 254);
+      }
+
+      h3 {
+        text-align: center;
+        font-family: sans-serif;
+        font-size: bold;
+        color: gray;
+      }
+
+      .nomer {
+        text-align: center;
+        margin-top: 1rem;
+      }
+
+      .simpan {
+        margin-top: 1rem;
+      }
+
+      .simpan .row {
+        transition: 0.7s;
+      }
+
+      .simpan .row:hover {
+        color: rgb(30, 92, 92);
+        background-color: darkred;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>
+      Isikan dengan format : "Angka-depan 62", "Nomer : 0-9", "Angka-Minimal :
+      5-12 "
+    </h3>
+    <div class="nomer">
+      <form action="">
+        <label for="telephone">Telepon :</label>
+        <input
+          type="tel"
+          name="telephone"
+          id="telephone"
+          pattern="(62)[0-9]{5,12}"
+        />
+        <br />
+        <div class="simpan">
+          <input type="submit" class="row" value="Simpan" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
+
+<!-- 
+Elemen <input> dalam HTML digunakan untuk membuat kotak input di mana pengguna dapat memasukkan data seperti teks, angka, atau pilihan. Atribut type dari elemen <input> menentukan jenis input yang akan ditampilkan. Untuk input telepon, Anda menggunakan type="tel".
+
+type="tel": Atribut ini menandakan bahwa input ini dimaksudkan untuk memasukkan nomor telepon. Browser mungkin menampilkan keyboard khusus untuk mempermudah pengguna memasukkan nomor telepon, tergantung pada perangkat yang digunakan.
+
+Placeholder: Anda dapat menambahkan atribut placeholder untuk memberikan petunjuk kepada pengguna tentang format yang diharapkan untuk nomor telepon, misalnya "Masukkan nomor telepon Anda".
+
+Validasi: Untuk memastikan bahwa input yang dimasukkan sesuai dengan format yang diinginkan (seperti nomor telepon yang valid), Anda bisa menggunakan atribut pattern dengan ekspresi reguler untuk menentukan aturan validasi. Contohnya, untuk nomor telepon di Indonesia, ekspresi reguler dapat digunakan untuk memvalidasi angka dan panjang tertentu.
+
+Aksesibilitas: Penting untuk memastikan bahwa input ini dapat diakses dengan mudah oleh semua pengguna, termasuk mereka yang menggunakan pembaca layar. Pastikan menggunakan label yang jelas terkait dengan input ini untuk membantu pengguna memahami tujuan input tersebut.
+
+Support Browser: Sebagian besar browser modern mendukung tipe tel dengan baik, memberikan pengalaman pengguna yang konsisten dalam memasukkan nomor telepon.
+
+Dengan menggunakan type="tel" dan memperhatikan aspek-aspek tersebut, Anda dapat memastikan input telepon pada halaman web Anda mudah digunakan dan sesuai dengan kebutuhan pengguna. -->

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regristrasi</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Identitas</legend>
+        <label for="name">Nama :</label>
+        <input type="text" name="name" id="name" /> <br />
+        <label for="email">Email :</label>
+        <input type="email" name="email" id="email" /> <br />
+        <label for="telephone">Telephone</label>
+        <input
+          type="tel"
+          name="telephone"
+          id="telephone"
+          pattern="[0-9]{5,12}"
+        />
+      </fieldset>
+      <fieldset>
+        <legend>Alamat</legend>
+        <label for="jalan">Jalan :</label>
+        <input type="text" name="jalan" id="jalan" /> <br />
+        <label for="kota">Kota :</label>
+        <input type="text" name="kota" id="kota" /> <br />
+        <label for="provinsi">Provinsi :</label>
+        <input type="text" name="provinsi" id="provinsi" />
+      </fieldset>
+      <button type="submit">Simpan</button>
+    </form>
+  </body>
+</html>
+
+<!-- 
+Fieldset adalah elemen HTML yang digunakan untuk mengelompokkan elemen-elemen dalam formulir menjadi satu kesatuan logis. Elemen ini sering digunakan bersama dengan elemen legend untuk memberikan judul pada grup elemen yang dikelompokkan. Penggunaan fieldset membantu dalam pengaturan tata letak dan struktur formulir, serta meningkatkan aksesibilitas dan keterbacaan.
+
+Karakteristik Fieldset:
+Pengelompokan Logis: Mengelompokkan elemen formulir yang terkait secara logis, seperti informasi pribadi, detail pembayaran, atau preferensi pengguna.
+Struktur Visual: Memberikan batasan visual di sekitar elemen-elemen yang dikelompokkan, yang dapat meningkatkan keterbacaan dan organisasi formulir.
+Aksesibilitas: Meningkatkan aksesibilitas dengan memberikan konteks tambahan kepada pengguna alat bantu seperti pembaca layar.
+Komponen Utama Fieldset:
+Elemen Fieldset: Elemen utama yang membungkus grup elemen formulir.
+Elemen Legend: Elemen opsional yang memberikan judul atau deskripsi untuk grup elemen dalam fieldset.
+Kegunaan Fieldset:
+Formulir Kompleks: Dalam formulir yang panjang atau kompleks, fieldset membantu memecahnya menjadi bagian-bagian yang lebih mudah dikelola dan dipahami.
+Pengaturan Informasi: Mengelompokkan informasi yang terkait, seperti detail kontak, informasi pengiriman, dan metode pembayaran, untuk memudahkan pengguna dalam mengisi formulir.
+Aksesibilitas Tambahan: Dengan menggunakan legend, pengguna alat bantu dapat lebih mudah memahami struktur dan tujuan dari grup elemen dalam formulir.
+Manfaat Menggunakan Fieldset:
+Keteraturan dan Keterbacaan: Mempermudah pengorganisasian dan penataan elemen formulir, membuatnya lebih terstruktur dan mudah dibaca.
+Navigasi yang Lebih Baik: Membantu pengguna dalam menavigasi formulir dengan lebih efisien, terutama dalam formulir yang panjang atau dengan banyak bagian.
+Peningkatan Aksesibilitas: Menyediakan konteks tambahan kepada pengguna alat bantu, membantu mereka memahami isi dan struktur formulir dengan lebih baik.
+Cara Kerja Fieldset:
+Mengelompokkan Elemen: Elemen-elemen yang terkait secara logis dibungkus dalam fieldset.
+Menambahkan Judul: Judul atau deskripsi untuk grup elemen ditambahkan menggunakan legend, yang biasanya ditempatkan di awal fieldset.
+Menyediakan Struktur Visual: Fieldset menambahkan batasan visual di sekitar elemen yang dikelompokkan, membuat formulir lebih terstruktur dan mudah diikuti.
+Contoh Penggunaan Fieldset:
+Informasi Pribadi: Mengelompokkan elemen seperti nama, alamat, dan nomor telepon dalam satu fieldset dengan legend berjudul "Informasi Pribadi".
+Detail Pembayaran: Mengelompokkan elemen seperti nomor kartu kredit, tanggal kedaluwarsa, dan kode CVV dalam fieldset dengan legend berjudul "Detail Pembayaran".
+Preferensi Pengguna: Mengelompokkan pilihan seperti preferensi bahasa, pengaturan notifikasi, dan tema situs dalam fieldset dengan legend berjudul "Preferensi Pengguna".
+Fieldset adalah alat yang penting dalam pengembangan formulir web, membantu mengelompokkan elemen yang terkait secara logis, meningkatkan keterbacaan, dan memberikan struktur yang lebih baik untuk formulir. -->

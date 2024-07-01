@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proses</title>
+  </head>
+  <body>
+    <form name="regristasi" action="receive.html" method="post">
+      <label for="nama">Nama :</label><br />
+      <input type="text" name="nama" id="nama" />
+      <br />
+      <label for="email">Email :</label> <br />
+      <input type="text" name="email" id="email" />
+      <br />
+      <label for="telephone">Telephone :</label> <br />
+      <input type="text" name="telephone" id="telephone" /> <br />
+      <input type="submit" value="Regristasi" style="margin-top: 0.5em" />
+    </form>
+  </body>
+</html>
+
+<!-- 
+Metode POST adalah salah satu dari dua metode utama yang digunakan dalam HTTP untuk mengirimkan data dari sebuah formulir HTML ke server. Berikut adalah penjelasan detailnya:
+
+Tujuan Utama: Metode POST digunakan untuk mengirim data dari formulir HTML ke server untuk diproses. Data yang dikirimkan melalui metode POST tidak ditampilkan di URL browser seperti metode GET, sehingga lebih aman untuk data sensitif seperti kata sandi atau informasi kartu kredit.
+
+Karakteristik: Saat menggunakan metode POST, data formulir dikirimkan dalam tubuh (body) permintaan HTTP. Ini memungkinkan untuk mengirimkan data yang lebih besar dan lebih kompleks daripada metode GET, karena batasan panjang URL tidak berlaku.
+
+Keamanan: Metode POST sering dipilih untuk mengirimkan data yang sensitif karena data tidak terlihat di URL. Namun, ini tidak membuat data itu sendiri terenkripsi secara otomatis; untuk itu, perlu menggunakan protokol seperti HTTPS untuk enkripsi data yang melintasi jaringan.
+
+Penggunaan Umum: Metode POST digunakan ketika Anda perlu mengirimkan data yang besar, seperti file upload, atau ketika Anda ingin menjaga kerahasiaan data pengguna. Misalnya, dalam formulir pendaftaran, data seperti nama, alamat email, dan kata sandi biasanya dikirim dengan metode POST.
+
+Interaksi dengan Server: Saat menggunakan metode POST, server biasanya mengolah data yang diterima dari formulir, misalnya menyimpannya dalam basis data, mengirimkan email konfirmasi, atau melakukan tindakan lainnya yang sesuai dengan logika aplikasi.
+
+Metode POST adalah alat penting dalam pengembangan web untuk mengelola pengiriman data dari pengguna ke server secara aman dan efektif, mendukung berbagai jenis aplikasi web modern. -->

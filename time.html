@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time</title>
+  </head>
+  <body>
+    <form>
+      <label for="jam_masuk">Jam Masuk Kantor :</label>
+      <input
+        type="time"
+        name="jam_masuk"
+        id="jam_masuk"
+        value="07:00"
+        max="08:00"
+      />
+      <br />
+      <label for="jam_keluar">Jam Keluar Kantor :</label>
+      <input
+        type="time"
+        name="jam_masuk"
+        id="jam_masuk"
+        value="17:00"
+        max="19:00"
+      />
+      <br />
+      <input type="submit" value="Simpan" />
+    </form>
+
+    <form style="margin-top: 2rem">
+      <label for="masuk_kuliah">Jam Masuk Kuliah :</label>
+      <input
+        type="time"
+        id="masuk_kuliah"
+        name="masuk_kuliah"
+        value="08:00"
+        max="09:00"
+      />
+      <br />
+      <label for="selesai_kuliah">Jam Keluar Kuliah :</label>
+      <input
+        type="time"
+        name="selesai_kuliah"
+        id="selesai_kuliah"
+        value="17:00"
+        max="19:00"
+      />
+      <br />
+      <input type="submit" value="Simpan" />
+    </form>
+  </body>
+</html>
+
+<!-- 
+Input type time pada HTML digunakan untuk membuat sebuah kontrol input yang memungkinkan pengguna untuk memasukkan waktu dalam format yang ditentukan. Ketika Anda menggunakan input type="time", sebuah kontrol muncul yang biasanya berbentuk kotak atau dropdown (tergantung pada browser) yang memungkinkan pengguna untuk memilih waktu dengan akurasi hingga menit.
+
+Fitur utama dari input type="time" adalah sebagai berikut:
+
+Format Waktu: Kontrol ini secara otomatis membatasi input waktu yang valid sesuai dengan format yang ditetapkan oleh browser. Umumnya, format yang diterima adalah HH
+(jam dan menit).
+
+Interaksi Pengguna: Pengguna dapat memilih waktu dengan cara mengetik langsung atau menggunakan tombol panah atau dropdown yang disediakan oleh kontrol tersebut. Ini memudahkan pengguna untuk memasukkan waktu dengan format yang benar.
+
+Validasi Otomatis: Browser akan memvalidasi input secara otomatis untuk memastikan bahwa waktu yang dimasukkan sesuai dengan format yang diharapkan (jam dan menit valid).
+
+Tampilan yang Konsisten: Meskipun tampilan akhir mungkin sedikit berbeda antar browser, umumnya kontrol ini menawarkan tampilan yang konsisten untuk memilih waktu.
+
+Dukungan Browser: Mayoritas browser modern mendukung input type time, meskipun implementasi detailnya bisa sedikit berbeda tergantung pada browser dan sistem operasi yang digunakan.
+
+Input type time sangat berguna dalam aplikasi web yang memerlukan pengguna untuk memasukkan waktu, seperti jadwal, alarm, atau pengaturan waktu pada aplikasi tertentu. Dengan menggunakan kontrol ini, pengembang dapat memastikan bahwa input waktu yang diterima konsisten dan sesuai dengan format yang diinginkan, tanpa perlu validasi tambahan yang rumit. -->
